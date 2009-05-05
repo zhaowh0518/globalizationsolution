@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalizationManager", "GlobalizationManager\GlobalizationManager.csproj", "{AC84FF93-61A9-495B-9408-30111B2B774F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GlobalizationWebSite", "GlobalizationWebSite\", "{5BC229D2-FBA2-4C83-BBD3-02224533079D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{AC84FF93-61A9-495B-9408-30111B2B774F}|Disappearwind.GlobalizationSolution.GlobalizationManager.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/GlobalizationWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "GlobalizationWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GlobalizationWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GlobalizationWebSite"
+		Release.AspNetCompiler.PhysicalPath = "GlobalizationWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GlobalizationWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57610"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC84FF93-61A9-495B-9408-30111B2B774F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC84FF93-61A9-495B-9408-30111B2B774F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC84FF93-61A9-495B-9408-30111B2B774F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC84FF93-61A9-495B-9408-30111B2B774F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC229D2-FBA2-4C83-BBD3-02224533079D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC229D2-FBA2-4C83-BBD3-02224533079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC229D2-FBA2-4C83-BBD3-02224533079D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC229D2-FBA2-4C83-BBD3-02224533079D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
