@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="Amalga" mc:Ignorable="a">
+    <sys:String x:Key="CulturesTest_Lable1" a:overridable="True">Just a Test!</sys:String>
+</ResourceDictionary>
